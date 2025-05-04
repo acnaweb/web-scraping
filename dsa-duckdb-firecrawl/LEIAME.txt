@@ -1,0 +1,28 @@
+# Projeto Especial - Extração de Dados com Firecrawl e Análise com SQL AI Agent e DuckDB
+
+# Projeto Especial - Parte 1 - Extração de Dados com Firecrawl e Análise de Dados com DuckDB
+# Projeto Especial - Parte 2 - Análise de Dados com SQL AI Agent e DuckDB
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsaduckfire python=3.12
+
+# Ative o ambiente:
+
+conda activate dsaduckfire (ou: source activate dsaduckfire)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute os scripts:
+
+python dsa_web_scraping.py
+python dsa_ai_agent_analyzer.py
+
+conda deactivate
+conda remove --name dsaduckfire --all
+
+
+
